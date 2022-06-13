@@ -2,25 +2,10 @@ const elementoResposta = document.querySelector('#resposta')
 const inputPergunta = document.querySelector('#inputPergunta')
 var sonic1 = document.querySelector('.sonic1')
 const respostas = [
-  'certeza',
-  'não tenho tanta certeza',
-  'é decididamente assim',
-  'não conte com isso',
-  'sem duvidas',
-  'pergunte novamente mais tarde',
-  'sim definitivamente',
-  'minha resposta é não',
-  'voce pode contar com isso',
-  'melhor não te dizer agora',
-  'a meu ver, sim',
-  'minhas fontes dizem não',
-  'provavelmente',
-  'não é possivel prever agora',
-  'respecitva boa',
-  'as perspectivas não tão tao boas',
-  'sim',
-  'concentre-se e pergunte novamente',
-  'sinais apontam que sim',
+ 'não sei também',
+ 'algum dia vou saber',
+ 'espero que seu amigo saiba',
+ 'se ele não sabe, imagina eu',
   ]
 
 // clicar em fazer pergunta
