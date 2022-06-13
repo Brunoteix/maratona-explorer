@@ -27,7 +27,7 @@ const respostas = [
 function fazerPergunta(){
 
   if(inputPergunta.value == ''){
-    sonic1.src = './Imagens/sumiu.gif';
+    sonic1.src = 'https://s8.gifyu.com/images/sumiu.gif';
 
     return
   }
