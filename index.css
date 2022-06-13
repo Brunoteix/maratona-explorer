@@ -9,8 +9,19 @@ body {
     font-family: sans-serif;
 }
 
+.sonic1 {
+    width: 150px;
+
+}
+.sonic3 {
+
+    visibility: hidden;
+}
+#foto div {
+    margin-top: 0;
+}
 #container {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 80%;
     max-width: 400px;
     margin-inline: auto;

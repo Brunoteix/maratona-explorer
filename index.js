@@ -1,5 +1,6 @@
 const elementoResposta = document.querySelector('#resposta')
 const inputPergunta = document.querySelector('#inputPergunta')
+var sonic1 = document.querySelector('.sonic1')
 const respostas = [
   'certeza',
   'não tenho tanta certeza',
@@ -26,9 +27,14 @@ const respostas = [
 function fazerPergunta(){
 
   if(inputPergunta.value == ''){
-    alert('Digite sua pergunta')
+    sonic1.src = './Imagens/sumiu.gif';
+
     return
   }
+    else{
+      sonic1.src = './Imagens/mario.gif';
+    }
+    
 
   const pergunta = '<div>' + inputPergunta.value + '</div>'
 
@@ -44,4 +50,6 @@ function fazerPergunta(){
   setTimeout(function() {
     elementoResposta.style.opacity = 0;
   }, 3000)
+
+
  }
