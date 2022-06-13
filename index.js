@@ -32,7 +32,7 @@ function fazerPergunta(){
     return
   }
     else{
-      sonic1.src = './Imagens/mario.gif';
+      sonic1.src = 'https://s8.gifyu.com/images/marioe013878534f1e030.gif';
     }
     
 
